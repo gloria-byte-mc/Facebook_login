@@ -1,0 +1,210 @@
+ 
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container{
+  background-color: #f0f2f5;
+  height: 740px;
+      }
+      .container1{
+        display: flex;
+        float:right;
+        width:400px;
+        height: 370px;
+        background-color:white;
+        margin-right: 430px;
+        margin-top: -190px;
+        border-radius: 6px;
+        box-shadow:  0 2px 4px rgba(28, 28, 28, 0.4);
+      }
+      .input1{
+        margin-top: 10px;
+        margin-left: 15px;
+        width:370px;
+        height:55px;
+        border: 1px solid rgb(232, 229, 229);
+        border-radius: 6px;
+        outline: none;
+        transition: border 0.2s, box-shadow 0.2s;
+        caret-color: #1877F2;
+      }
+      .input1:focus{
+        border: 1px solid #1877F2;
+        caret-color: #1877F2;
+        box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2 );
+      }
+     .input1::placeholder{
+      padding-left: 20px;
+      font-size: larger;
+      font-family: Arial, Helvetica, sans-serif;
+      color:#90949c;
+     
+     }
+     .button1{
+     margin-top: 20px;
+     margin-left: 15px;
+     width:370px;
+     height:50px;
+     border: none;
+     border-radius:6px ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #1877F2;
+    font-size: larger;
+     }
+     .button1:hover{
+      background-color: #3489f9;
+     }
+     #button2{
+      margin-top: 25px;
+      margin-left:110px;
+     background-color: rgb(66, 183, 42);
+     height: 45px;
+     width: 200px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+     }
+     #button2:hover{
+      background-color: rgb(60, 167, 39);
+     }
+     #paragraph1:hover{
+      text-decoration: underline;
+     }
+     #paragraph2{
+      margin-top: 55px;
+      margin-left:37px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:15px;
+     }
+     #paragraph3{
+ margin-top: 30px;
+ color:rgb(150, 150, 150);
+ font-family: Arial, Helvetica, sans-serif;
+ font-size:small;
+ margin-left:440px;
+ word-spacing: 10px;
+
+     }
+     
+     #paragraph:hover{
+      text-decoration: underline;
+     }
+     #paragraph4{
+      margin-top: 10px;
+      margin-left: 440px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      color:rgb(150, 150, 150);
+      word-spacing: 20px;
+     }
+     
+     #paragraph5{
+      margin-left: 440px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      word-spacing: 20px;
+      color: rgb(150, 150, 150);
+     }
+     
+     #paragraph6{
+      margin-left: 440px;
+      margin-top: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:13px ;
+      color: rgb(150, 150, 150);
+
+     }
+     #bold1:hover{
+     text-decoration: underline;
+     }
+     
+     #span2:hover{
+      text-decoration: underline;
+     }
+
+     .footer{
+      margin-top: 30px;
+     margin-left: 460px;
+     }
+     .footer a {
+      text-decoration: none;
+      color:#8a8d91;
+      font-size: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+     
+     }
+     .footer a:hover{
+      text-decoration: underline;
+     }
+
+     @media screen and (max-width: 1440px){
+     #heading1{
+      font-size:50px !important ;
+      padding-top: 170px !important;
+      padding-left: 200px !important;
+     }
+     #paragraph7{
+      font-size: 20px !important;
+      padding-left: 200px !important;
+
+     }
+     .container1{
+      width: 390px !important;
+      height: 350px !important;
+      margin-right: 220px !important;
+     
+     }
+     .input1{
+      margin-left: 15px !important;
+      width: 360px !important;
+      height:50px !important ;
+     }
+     .button1{
+      width: 360px !important;
+      height: 45px !important;
+
+     }
+     #paragraph1{
+      padding-top: 20px !important;
+
+     }
+     #hr1{
+      margin-top: 20px !important;
+     }
+     #paragraph2{
+      font-size: small !important;
+      margin-left: 60px! important;
+     }
+     #paragraph3{
+     margin-left: 200px !important;
+     font-size: 12px !important;
+     margin-top: 20px !important;
+     }
+     #paragraph4{
+     margin-left:200px !important ;
+     font-size: 12px !important;
+     margin-top: 5px !important;
+     }
+     #paragraph5{
+      margin-left: 200px !important;
+      font-size: 12px;
+     }
+     #paragraph6{
+      font-size:12px !important;
+      margin-left: 200px !important;
+      margin-top: 20px !important;
+     }
+     #hr2{
+      margin-left: 200px !important;
+      width:900px !important ;
+      margin-top: 5px !important;
+     }
+     
+     }

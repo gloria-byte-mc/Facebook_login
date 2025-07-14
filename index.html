@@ -1,213 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Facebook login page</title>
-    <link rel="">
+    <title>Facebook login page-flex</title>
+    <link rel="stylesheet" href="style.css" >
+     <link rel="icon" href="images/whatsapp-image.jpg" type="image/png" >
     <style>
-      
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      .container{
-  background-color: #f0f2f5;
-  height: 740px;
-      }
-      .container1{
-        display: flex;
-        float:right;
-        width:420px;
-        height: 370px;
-        background-color:white;
-        margin-right: 430px;
-        margin-top: -190px;
-        border-radius: 9px;
-        box-shadow:  0 2px 4px rgba(28, 28, 28, 0.4);
-      }
-      .input1{
-        margin-top: 10px;
-        margin-left: 20px;
-        width:380px;
-        height:55px;
-        border: 1px solid rgb(232, 229, 229);
-        border-radius: 9px;
-        outline: none;
-        transition: border 0.2s, box-shadow 0.2s;
-        caret-color: #1877F2;
-      }
-      .input1:focus{
-        border: 1px solid #1877F2;
-        caret-color: #1877F2;
-        box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2 );
-      }
-     .input1::placeholder{
-      padding-left: 20px;
-      font-size: larger;
-      font-family: Arial, Helvetica, sans-serif;
      
-     }
-     .button1{
-     margin-top: 20px;
-     margin-left: 20px;
-     width:380px;
-     height:50px;
-     border: none;
-     border-radius:9px ;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background-color: #1877F2;
-    font-size: larger;
-     }
-     .button1:hover{
-      background-color: #3489f9;
-     }
-     #button2{
-      margin-top: 25px;
-      margin-left:110px;
-     background-color: rgb(66, 183, 42);
-     height: 45px;
-     width: 200px;
-    color: white;
-    border: none;
-    border-radius: 9px;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-     }
-     #button2:hover{
-      background-color: rgb(60, 167, 39);
-     }
-     #paragraph1:hover{
-      text-decoration: underline;
-     }
-     #paragraph2{
-      margin-top: 55px;
-      margin-left: 48px;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: medium;
-     }
-     #paragraph3{
- margin-top: 30px;
- color:rgb(150, 150, 150);
- font-family: Arial, Helvetica, sans-serif;
- font-size:small;
- margin-left:440px;
- word-spacing: 10px;
-
-     }
-     
-     #paragraph:hover{
-      text-decoration: underline;
-     }
-     #paragraph4{
-      margin-top: 10px;
-      margin-left: 440px;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 13px;
-      color:rgb(150, 150, 150);
-      word-spacing: 20px;
-     }
-     
-     #paragraph5{
-      margin-left: 440px;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 13px;
-      word-spacing: 20px;
-      color: rgb(150, 150, 150);
-     }
-     
-     #paragraph6{
-      margin-left: 440px;
-      margin-top: 25px;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size:13px ;
-      color: rgb(150, 150, 150);
-
-     }
-     #bold1:hover{
-     text-decoration: underline;
-     }
-     
-     #span2:hover{
-      text-decoration: underline;
-     }
-
-
-     @media screen and (max-width: 1440px){
-     #heading1{
-      font-size:50px !important ;
-      padding-top: 170px !important;
-      padding-left: 200px !important;
-     }
-     #paragraph7{
-      font-size: 20px !important;
-      padding-left: 200px !important;
-
-     }
-     .container1{
-      width: 390px !important;
-      height: 350px !important;
-      margin-right: 220px !important;
-     
-     }
-     .input1{
-      margin-left: 15px !important;
-      width: 360px !important;
-      height:50px !important ;
-     }
-     .button1{
-      width: 360px !important;
-      height: 45px !important;
-
-     }
-     #paragraph1{
-      padding-top: 20px !important;
-
-     }
-     #hr1{
-      margin-top: 20px !important;
-     }
-     #paragraph2{
-      font-size: small !important;
-      margin-left: 60px! important;
-     }
-     #paragraph3{
-     margin-left: 200px !important;
-     font-size: 12px !important;
-     margin-top: 20px !important;
-     }
-     #paragraph4{
-     margin-left:200px !important ;
-     font-size: 12px !important;
-     margin-top: 5px !important;
-     }
-     #paragraph5{
-      margin-left: 200px !important;
-      font-size: 12px;
-     }
-     #paragraph6{
-      font-size:12px !important;
-      margin-left: 200px !important;
-      margin-top: 20px !important;
-     }
-     #hr2{
-      margin-left: 200px !important;
-      width:900px !important ;
-      margin-top: 5px !important;
-     }
-     
-     }
     </style>
   </head>
   <body>
 
     <div class="container">
  <div>
-  <h1 id="heading1" style="font-size: 60px; color:#1877F2; font-family: Arial, Helvetica, sans-serif; padding-top: 200px; padding-left: 440px; ">facebook</h1>
-  <p id="paragraph7" style="font-size: 30px; padding-left: 440px; font-family: Arial, Helvetica, sans-serif;">Facebook helps you connect and share</p>
-  <p id="paragraph7" style="font-size: 30px; padding-left: 440px ; font-family: Arial, Helvetica, sans-serif;">with the people in your life</p>
+ <img src="images/4lCu2zih0ca.svg" alt="images" width="300px" style="padding-top: 200px; margin-left:440px;">
+ <div class="facebook" style="margin-top: -10px;">
+  <p id="paragraph7" style="font-size: 28px; padding-left: 470px;  font-family: Arial, Helvetica, sans-serif;">Facebook helps you connect and share</p>
+  <p id="paragraph7" style="font-size: 28px; padding-left: 470px ; font-family: Arial, Helvetica, sans-serif;">with the people in your life</p>
+  </div>
  </div>
 
 <div class="container1">
@@ -216,7 +25,7 @@
 <input class="input1" type="text" placeholder="Password">
 <button class="button1">Log in</button>
 
-<p id="paragraph1" style="color:#1877F2; padding-top: 25px; padding-left: 130px; font-family: Arial, Helvetica, sans-serif; font-size: medium;">Forgotten Password?</p>
+<p id="paragraph1" style="color:#1877F2; padding-top: 25px; padding-left: 130px; font-family: Arial, Helvetica, sans-serif; font-size:15px;">Forgotten Password?</p>
 
 <hr id="hr1" style=" border:none;   border-top: 0.5px solid rgb(232, 229, 229); width:90%; margin-left:21px; margin-top: 25px;">
 
@@ -226,23 +35,57 @@
 
 </div>
  </div>
- <p id="paragraph3"><span id="span2" >English(UK)</span>
-<span id="span2">Kiswahili</span>
-<span id="span2">Français (France)</span>
-<span id="span2">Español</span>
-<span id="span2">Português (Brasil)</span>
-العربية
-<span id="span2">Deutsch</span>
-<span id="span2">Italiano</span>
-<span id="span2">Türkçe</span>
-<span id="span2">हिन्दी</span>
-<span id="span2">>中文(简体)</span>   <button style="height:20px; width:30px; border-radius: none; border: 1px solid rgb(181, 180, 180);  font-weight:bold; font-size: larger;">+</button></p>
-<hr id="hr2" style="border:none; border-top:0.5px solid rgb(232, 229, 229) ; margin-top: 10px; width:1050px; margin-left: 440px;">
-<p id="paragraph4"> <span style="word-spacing: -1px;">Sign Up</span>  <span style="word-spacing: -1px;">Log in</span>   Messenger  <span style="word-spacing: -1px;">Facebook Lite</span>  Video  <span style="word-spacing: -1px;">Meta Pay</span> <span style="word-spacing: -1px;">Meta Store</span>  <span style="word-spacing: -1px;">Meta Quest</span>  <span style="word-spacing: -1px;">Ray-Ban Meta</span>  <span style="word-spacing: -1px;">Meta AI</span>  Instagram  Threads</p>
-<p id="paragraph5"> <span style="word-spacing: -1px;">Voting Information Centre</span>  <span style="word-spacing: -1px;">Privacy Policy</span>  <span style="word-spacing: -1px;">Privacy Centre</span>  About  <span id="span1" style="word-spacing: -1px;">Create ad</span>  <span style="word-spacing: -1px; ">Create Page</span>  Developers  Careers  Cookies  AdChoices  Terms  Help
 
-</p>
-<p id="paragraph5"><span style="word-spacing: -1px;">Contact uploading and non-users</span></p>
-<p id="paragraph6"><span style="word-spacing:-1px ;">meta <span style="font-size: 11px;">©</span> <span style="font-size:11px;">2025<span> </span> </span></p>
+ <div class="footer">
+  <a href="#" style="text-decoration: none;" >English (US)</a> &nbsp;
+                    <a href="#" >kiswahili</a> &nbsp;
+                    <a href="#">Français (France)</a> &nbsp;
+                    <a href="#" >Español</a> &nbsp;
+                    <a href="#" >Português (Brasil)</a> &nbsp;
+                    <a href="#">العربية</a> &nbsp;
+                    <a href="#" >Deutsch</a> &nbsp;
+                    <a href="#" >Italiano</a> &nbsp;
+                    <a href="#">Türkçe</a> &nbsp;
+                    <a href="#" >हिन्दी</a> &nbsp;
+                    <a href="#" >中文(简体)</a> &nbsp;
+   
+                    <button style="font-weight: 750; font-size: 14px; width: 28px; border: 1px solid #8a8d91;">+</button>
+
+                     <br>
+                    <hr width="70%" align="left" color="#dadde1" size="1" style="margin-top: 10px; margin-bottom: 10px;">
+                    <a href="#" >Sign Up</a> &nbsp; &nbsp;
+                    <a href="#" >Log In</a> &nbsp; &nbsp;
+                    <a href="#" >Messenger</a> &nbsp; &nbsp;
+                    <a href="#" >Facebook Lite</a> &nbsp;
+                    <a href="#" >Video</a> &nbsp; &nbsp;
+                    <a href="#" >Meta Pay</a> &nbsp; &nbsp;
+                    <a href="#" >Meta Store</a> &nbsp; &nbsp;
+                    <a href="#" >Meta Quest</a> &nbsp; &nbsp;
+                    <a href="#" >Ran-Ban Meta</a> &nbsp; &nbsp;
+                    <a href="#" >Meta AI</a> &nbsp; &nbsp;
+                    <a href="#" >Instagram</a> &nbsp; &nbsp;
+                    <a href="#" >Threads</a> &nbsp; &nbsp;
+                   
+
+                      <br>
+                    <a href="#" >Voting Information Centre</a> &nbsp; &nbsp;
+                    <a href="#" >Privacy Policy</a> &nbsp; &nbsp;
+                    <a href="#" >Privacy Centre</a> &nbsp; &nbsp;
+                    <a href="#" >About</a> &nbsp; &nbsp;
+                    <a href="#" >Create ad</a> &nbsp; &nbsp;
+                     <a href="#" >Create Page</a> &nbsp; &nbsp;
+                    <a href="#" >Developers</a>&nbsp; &nbsp;
+                    <a href="#" >Careers</a>&nbsp; &nbsp;
+                    <a href="#" >Cookies</a>&nbsp; &nbsp;
+                    <a href="#" >AdChoices</a>&nbsp; &nbsp; &nbsp;
+                    <a href="#" >Terms</a>&nbsp; &nbsp;
+                    <a href="#" >Help</a>
+                    <br>
+                     <a href="#" >Contact Uploading and non-users</a> &nbsp; &nbsp;
+                    
+                    <br><br>
+                   <p style="color:#5c5c5c; font-size:12px;"> Meta © 2025</p>
+</div>
+
   </body>
 </html>
