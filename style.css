@@ -150,8 +150,11 @@
       padding-top: 170px !important;
       padding-left: 200px !important;
      }
+     .footer{
+      margin-left: 200px;
+     }
      #paragraph7{
-      font-size: 20px !important;
+      font-size: 25px !important;
       padding-left: 200px !important;
 
      }
@@ -179,8 +182,8 @@
       margin-top: 20px !important;
      }
      #paragraph2{
-      font-size: small !important;
-      margin-left: 60px! important;
+      font-size: 15px !important;
+      margin-left: 40px! important;
      }
      #paragraph3{
      margin-left: 200px !important;
@@ -205,6 +208,16 @@
       margin-left: 200px !important;
       width:900px !important ;
       margin-top: 5px !important;
+     }
+     .container img{
+      margin-left: 170px !important;
+     }
+     #hr2{
+      width:80% !important;
+      margin-left: 1px !important;
+     }
+     .container1{
+      margin-right:300px !important;
      }
      
      }
